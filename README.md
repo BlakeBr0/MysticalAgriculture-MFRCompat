@@ -1,3 +1,3 @@
-MysticalAgriculture-MFRCompat
+#MysticalAgriculture-MFRCompat
 
-All rights reserved
+All Rights Reserved.
