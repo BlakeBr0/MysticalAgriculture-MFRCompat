@@ -1,0 +1,168 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 6/19/17 5:46 PM
+Description: Rendering item
+
+java.lang.AbstractMethodError
+	at net.minecraft.client.renderer.color.ItemColors.getColorFromItemstack(ItemColors.java:139)
+	at net.minecraft.client.renderer.RenderItem.renderQuads(RenderItem.java:222)
+	at net.minecraft.client.renderer.RenderItem.renderModel(RenderItem.java:136)
+	at net.minecraft.client.renderer.RenderItem.renderModel(RenderItem.java:117)
+	at net.minecraft.client.renderer.RenderItem.renderItem(RenderItem.java:155)
+	at net.minecraft.client.renderer.RenderItem.renderItemModelIntoGUI(RenderItem.java:317)
+	at net.minecraft.client.renderer.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:356)
+	at codechicken.lib.render.item.CCRenderItem.renderItemAndEffectIntoGUI(CCRenderItem.java:235)
+	at codechicken.lib.render.item.CCRenderItem.renderItemAndEffectIntoGUI(CCRenderItem.java:220)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawTab(GuiContainerCreative.java:924)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawGuiContainerBackgroundLayer(GuiContainerCreative.java:749)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:94)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:59)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawScreen(GuiContainerCreative.java:634)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:382)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1147)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1139)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.client.renderer.color.ItemColors.getColorFromItemstack(ItemColors.java:139)
+	at net.minecraft.client.renderer.RenderItem.renderQuads(RenderItem.java:222)
+	at net.minecraft.client.renderer.RenderItem.renderModel(RenderItem.java:136)
+	at net.minecraft.client.renderer.RenderItem.renderModel(RenderItem.java:117)
+	at net.minecraft.client.renderer.RenderItem.renderItem(RenderItem.java:155)
+	at net.minecraft.client.renderer.RenderItem.renderItemModelIntoGUI(RenderItem.java:317)
+
+-- Item being rendered --
+Details:
+	Item Type: powercrystals.minefactoryreloaded.block.ItemBlockConveyor@cf39749
+	Item Aux: 16
+	Item NBT: null
+	Item Foil: false
+Stacktrace:
+	at net.minecraft.client.renderer.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:356)
+
+-- Item being rendered --
+Details:
+	Item Type: powercrystals.minefactoryreloaded.block.ItemBlockConveyor@cf39749
+	Item Aux: 16
+	Item NBT: null
+	Item Foil: false
+Stacktrace:
+	at codechicken.lib.render.item.CCRenderItem.renderItemAndEffectIntoGUI(CCRenderItem.java:235)
+	at codechicken.lib.render.item.CCRenderItem.renderItemAndEffectIntoGUI(CCRenderItem.java:220)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawTab(GuiContainerCreative.java:924)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawGuiContainerBackgroundLayer(GuiContainerCreative.java:749)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:94)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:59)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawScreen(GuiContainerCreative.java:634)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:382)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiContainerCreative
+	Mouse location: Scaled: (322, 24). Absolute: (1291, 919)
+	Screen size: Scaled: (480, 255). Absolute: (1920, 1017). Scale factor of 4
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player201'/1114, l='MpServer', x=-79.50, y=48.15, z=29.50]]
+	Chunk stats: MultiplayerChunkCache: 543, 543
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-73,64,35), Chunk: (at 7,4,3 in -5,2; contains blocks -80,0,32 to -65,255,47), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 171 game time, 171 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 49 total; [EntityEnderman['Enderman'/1796, l='MpServer', x=-20.50, y=30.00, z=78.50], EntityEnderman['Enderman'/1797, l='MpServer', x=-21.50, y=30.00, z=77.50], EntityEnderman['Enderman'/1798, l='MpServer', x=-18.50, y=30.00, z=78.50], EntitySkeleton['Skeleton'/1799, l='MpServer', x=-23.50, y=30.00, z=80.50], EntityZombie['Zombie'/2059, l='MpServer', x=-29.50, y=46.00, z=71.50], EntityZombie['Zombie'/1294, l='MpServer', x=-140.50, y=31.00, z=69.50], EntityZombie['Zombie'/1295, l='MpServer', x=-142.48, y=31.00, z=64.77], EntityZombie['Zombie'/1296, l='MpServer', x=-141.91, y=31.00, z=67.56], EntityCreeper['Creeper'/2064, l='MpServer', x=-58.50, y=14.00, z=29.50], EntityZombie['Zombie'/1561, l='MpServer', x=-107.50, y=33.00, z=65.50], EntityCreeper['Creeper'/1310, l='MpServer', x=-115.50, y=23.00, z=70.50], EntitySkeleton['Skeleton'/2082, l='MpServer', x=-95.50, y=32.00, z=76.50], EntitySheep['Sheep'/43, l='MpServer', x=-71.50, y=70.00, z=93.50], EntitySheep['Sheep'/44, l='MpServer', x=-79.44, y=71.00, z=91.48], EntityBat['Bat'/1836, l='MpServer', x=-8.64, y=31.34, z=78.40], EntitySheep['Sheep'/45, l='MpServer', x=-64.45, y=66.00, z=89.59], EntitySheep['Sheep'/46, l='MpServer', x=-68.50, y=68.00, z=95.50], EntityZombie['Zombie'/1838, l='MpServer', x=-85.50, y=35.00, z=55.50], EntityCreeper['Creeper'/1969, l='MpServer', x=-117.50, y=28.00, z=64.50], EntitySheep['Sheep'/51, l='MpServer', x=-54.50, y=67.00, z=77.50], EntitySkeleton['Skeleton'/1971, l='MpServer', x=-105.50, y=27.00, z=71.50], EntitySheep['Sheep'/52, l='MpServer', x=-46.11, y=68.00, z=81.16], EntityZombie['Zombie'/1972, l='MpServer', x=-106.50, y=27.00, z=71.50], EntitySheep['Sheep'/53, l='MpServer', x=-53.58, y=68.00, z=78.55], EntitySheep['Sheep'/54, l='MpServer', x=-53.50, y=67.00, z=75.50], EntityCreeper['Creeper'/1974, l='MpServer', x=-7.50, y=30.00, z=80.50], EntityBat['Bat'/1591, l='MpServer', x=-32.40, y=18.04, z=-50.20], EntityZombie['Zombie'/1468, l='MpServer', x=-54.50, y=54.00, z=53.50], EntityBat['Bat'/1599, l='MpServer', x=-51.01, y=16.00, z=32.39], EntityCreeper['Creeper'/1990, l='MpServer', x=-71.50, y=42.00, z=108.50], EntityCreeper['Creeper'/1739, l='MpServer', x=-109.50, y=33.00, z=69.50], EntityCreeper['Creeper'/1614, l='MpServer', x=-48.50, y=14.00, z=15.50], EntityCreeper['Creeper'/1615, l='MpServer', x=-49.60, y=14.00, z=13.11], EntityCreeper['Creeper'/1872, l='MpServer', x=-81.50, y=36.00, z=56.50], EntityZombie['Zombie'/2006, l='MpServer', x=-84.50, y=50.00, z=56.50], EntityZombie['Zombie'/2007, l='MpServer', x=-83.50, y=50.00, z=57.50], EntityPlayerSP['Player201'/1114, l='MpServer', x=-79.50, y=48.15, z=29.50], EntityZombie['Zombie'/1373, l='MpServer', x=-96.50, y=55.00, z=86.50], EntityZombie['Zombie'/1374, l='MpServer', x=-94.50, y=55.00, z=86.50], EntityZombie['Zombie'/1375, l='MpServer', x=-94.50, y=55.00, z=86.50], EntityBat['Bat'/1381, l='MpServer', x=-106.25, y=32.10, z=62.50], EntityBat['Bat'/1383, l='MpServer', x=-105.63, y=31.10, z=62.48], EntityBat['Bat'/1384, l='MpServer', x=-102.25, y=30.93, z=69.53], EntitySkeleton['Skeleton'/1258, l='MpServer', x=-121.50, y=20.00, z=73.50], EntitySkeleton['Skeleton'/1521, l='MpServer', x=-48.50, y=14.00, z=17.50], EntitySkeleton['Skeleton'/1522, l='MpServer', x=-48.50, y=14.00, z=15.50], EntitySpider['Spider'/1395, l='MpServer', x=-104.50, y=33.00, z=63.50], EntityCreeper['Creeper'/1523, l='MpServer', x=-45.50, y=14.00, z=18.50], EntitySkeleton['Skeleton'/2041, l='MpServer', x=-63.50, y=52.00, z=57.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:451)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2779)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:427)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_91, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1212019960 bytes (1155 MB) / 1849163776 bytes (1763 MB) up to 3806855168 bytes (3630 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.32 Powered by Forge 12.18.3.2185 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.10.2-12.18.3.2185.jar) 
+	UCHIJAAAA	Forge{12.18.3.2185} [Minecraft Forge] (forgeSrc-1.10.2-12.18.3.2185.jar) 
+	UCHIJAAAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAAAA	ccl-entityhook{1.0} [ccl-entityhook] (CodeChickenLib-1.10.2-2.5.9.267-deobf.jar) 
+	UCHIJAAAA	mysticalmfrcompat{1.0.0} [Mystical MFR Compat] (bin) 
+	UCHIJAAAA	CodeChickenLib{2.5.9.267} [CodeChicken Lib] (CodeChickenLib-1.10.2-2.5.9.267-deobf.jar) 
+	UCHIJAAAA	cofhcore{4.1.6} [CoFH Core] (CoFHCore-1.10.2-4.1.6.9-deobf.jar) 
+	UCHIJAAAA	minefactoryreloaded{2.9.0B1} [MineFactory Reloaded] (MineFactoryReloaded-[1.10.2]2.9.0B1-221.jar) 
+	UCHIJAAAA	MineFactoryReloaded|CompatVanilla{2.9.0B1} [MFR Compat: Vanilla] (MineFactoryReloaded-[1.10.2]2.9.0B1-221.jar) 
+	Loaded coremods (and transformers): 
+CCLCorePlugin (CodeChickenLib-1.10.2-2.5.9.267-deobf.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.CCL_ASMTransformer
+CoFH Loading Plugin (CoFHCore-1.10.2-4.1.6.9-deobf.jar)
+  cofh.asm.CoFHClassTransformer
+  cofh.asm.repack.codechicken.lib.asm.ClassHierarchyManager
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 376.53' Renderer: 'GeForce GTX 970/PCIe/SSE2'
+	minefactoryreloaded: -[1.10.2]2.9.0B1-221
+	CodeChickenLib Invalid Fingerprint Reports: 
+		CodeChickenLib has an invalid fingerprint.
+	Launched Version: 1.10.2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 970/PCIe/SSE2 GL version 4.5.0 NVIDIA 376.53, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz

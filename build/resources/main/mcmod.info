@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mysticalmfrcompat",
+  "name": "Mystical MFR Compat",
+  "description": "Adds Mystical Agriculture/Agradditions support to MineFactory Reloaded.",
+  "version": "1.0.0",
+  "mcversion": "1.10.2",
+  "url": "https://minecraft.curseforge.com/projects/mystical-agriculture-mfr-compat",
+  "updateUrl": "",
+  "authorList": ["BlakeBr0"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

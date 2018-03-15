@@ -1,0 +1,294 @@
+Symbol range map extraction starting
+Processing 3 files
+startProcessing "com\blakebr0\mysticalmfrcompat\Harvestable.java" md5: 77d5f3bf2e695f148453a35d7a31b483
+Cache Hit!
+@|com\blakebr0\mysticalmfrcompat\Harvestable.java|8|38|com.blakebr0.mysticalmfrcompat|package|com.blakebr0.mysticalmfrcompat|(file)
+Class Start: com.blakebr0.mysticalmfrcompat.Harvestable
+   @|com\blakebr0\mysticalmfrcompat\Harvestable.java|396|407|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+   @|com\blakebr0\mysticalmfrcompat\Harvestable.java|419|438|IFactoryHarvestable|class|powercrystals.minefactoryreloaded.api.IFactoryHarvestable
+   @|com\blakebr0\mysticalmfrcompat\Harvestable.java|452|457|Block|class|net.minecraft.block.Block
+   @|com\blakebr0\mysticalmfrcompat\Harvestable.java|452|457|Block|class|net.minecraft.block.Block
+   @|com\blakebr0\mysticalmfrcompat\Harvestable.java|458|463|block|field|com.blakebr0.mysticalmfrcompat.Harvestable|block|
+   Method Start: Harvestable(Lnet/minecraft/block/Block;)V
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|493|498|block|param|com.blakebr0.mysticalmfrcompat.Harvestable|Harvestable|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|475|486|Harvestable|method|com.blakebr0.mysticalmfrcompat.Harvestable|Harvestable|(Lnet/minecraft/block/Block;)V
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|487|492|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|508|513|block|field|com.blakebr0.mysticalmfrcompat.Harvestable|block
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|516|521|block|param|com.blakebr0.mysticalmfrcompat.Harvestable|Harvestable|(Lnet/minecraft/block/Block;)V|block|0
+   Method End: Harvestable(Lnet/minecraft/block/Block;)V
+   Method Start: breakBlock()Z
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|529|537|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|554|564|breakBlock|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|breakBlock|()Z
+   Method End: breakBlock()Z
+   Method Start: canBeHarvested(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|635|639|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|662|666|arg1|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg1|1
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|677|681|arg2|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg2|2
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|589|597|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|614|628|canBeHarvested|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|629|634|World|class|net.minecraft.world.World
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|641|644|Map|class|java.util.Map
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|645|651|String|class|java.lang.String
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|653|660|Boolean|class|java.lang.Boolean
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|668|676|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|693|697|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|698|711|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|712|716|arg2|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg2|2
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|718|726|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|729|745|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|746|750|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|751|764|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|765|769|arg2|param|com.blakebr0.mysticalmfrcompat.Harvestable|canBeHarvested|(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z|arg2|2
+   Method End: canBeHarvested(Lnet/minecraft/world/World;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Z
+   Method Start: getDrops(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|832|836|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|845|849|arg1|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg1|1
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|872|876|arg2|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg2|2
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|887|891|arg3|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg3|3
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|784|792|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|801|805|List|class|java.util.List
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|806|815|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|817|825|getDrops|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|826|831|World|class|net.minecraft.world.World
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|838|844|Random|class|java.util.Random
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|851|854|Map|class|java.util.Map
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|855|861|String|class|java.lang.String
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|863|870|Boolean|class|java.lang.Boolean
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|878|886|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|903|907|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|908|921|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|922|926|arg3|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg3|3
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|928|936|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|939|947|getDrops|method|net.minecraft.block.Block|getDrops|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Ljava/util/List;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|948|952|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|954|958|arg3|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg3|3
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|960|964|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|965|978|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|979|983|arg3|param|com.blakebr0.mysticalmfrcompat.Harvestable|getDrops|(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;|arg3|3
+   Method End: getDrops(Lnet/minecraft/world/World;Ljava/util/Random;Ljava/util/Map;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;
+   Method Start: getHarvestType()Lpowercrystals/minefactoryreloaded/api/HarvestType;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|996|1004|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1013|1024|HarvestType|class|powercrystals.minefactoryreloaded.api.HarvestType
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1025|1039|getHarvestType|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|getHarvestType|()Lpowercrystals/minefactoryreloaded/api/HarvestType;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1052|1063|HarvestType|class|powercrystals.minefactoryreloaded.api.HarvestType
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1064|1070|Normal|field|powercrystals.minefactoryreloaded.api.HarvestType|Normal
+   Method End: getHarvestType()Lpowercrystals/minefactoryreloaded/api/HarvestType;
+   Method Start: getPlant()Lnet/minecraft/block/Block;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1078|1086|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1095|1100|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1101|1109|getPlant|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|getPlant|()Lnet/minecraft/block/Block;
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1122|1127|block|field|com.blakebr0.mysticalmfrcompat.Harvestable|block
+   Method End: getPlant()Lnet/minecraft/block/Block;
+   Method Start: postHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1175|1179|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|postHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1190|1194|arg1|param|com.blakebr0.mysticalmfrcompat.Harvestable|postHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V|arg1|1
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1135|1143|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1157|1168|postHarvest|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|postHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1169|1174|World|class|net.minecraft.world.World
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1181|1189|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: postHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+   Method Start: preHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1245|1249|arg0|param|com.blakebr0.mysticalmfrcompat.Harvestable|preHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V|arg0|0
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1260|1264|arg1|param|com.blakebr0.mysticalmfrcompat.Harvestable|preHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V|arg1|1
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1206|1214|Override|class|java.lang.Override
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1228|1238|preHarvest|method|powercrystals.minefactoryreloaded.api.IFactoryHarvestable|preHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1239|1244|World|class|net.minecraft.world.World
+      @|com\blakebr0\mysticalmfrcompat\Harvestable.java|1251|1259|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: preHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+Class End  : com.blakebr0.mysticalmfrcompat.Harvestable
+endProcessing "com\blakebr0\mysticalmfrcompat\Harvestable.java"
+
+startProcessing "com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java" md5: 65c5f4a1e966fde4671ec3f288495aff
+@|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|8|38|com.blakebr0.mysticalmfrcompat|package|com.blakebr0.mysticalmfrcompat|(file)
+Class Start: com.blakebr0.mysticalmfrcompat.MAgradditionsCompat
+   @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|546|565|MAgradditionsCompat|class|com.blakebr0.mysticalmfrcompat.MAgradditionsCompat
+   Method Start: init()V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|590|594|init|method|com.blakebr0.mysticalmfrcompat.MAgradditionsCompat|init|()V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|600|611|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|612|631|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|636|647|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|648|657|ModBlocks|class|com.blakebr0.mysticalagradditions.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|658|680|blockTier6InferiumCrop|field|com.blakebr0.mysticalagradditions.blocks.ModBlocks|blockTier6InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|686|697|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|698|715|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|720|738|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|739|747|ModItems|class|com.blakebr0.mysticalagradditions.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|748|770|itemTier6InferiumSeeds|field|com.blakebr0.mysticalagradditions.items.ModItems|itemTier6InferiumSeeds
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|772|781|ModBlocks|class|com.blakebr0.mysticalagradditions.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|782|804|blockTier6InferiumCrop|field|com.blakebr0.mysticalagradditions.blocks.ModBlocks|blockTier6InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|810|821|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|822|842|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|847|868|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|870|875|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|876|885|ModBlocks|class|com.blakebr0.mysticalagradditions.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|886|908|blockTier6InferiumCrop|field|com.blakebr0.mysticalagradditions.blocks.ModBlocks|blockTier6InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|910|924|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|925|940|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|953|966|CropType.Type|class|com.blakebr0.mysticalagradditions.lib.CropType.Type
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|974|987|CropType.Type|class|com.blakebr0.mysticalagradditions.lib.CropType.Type
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|988|994|values|method|com.blakebr0.mysticalagradditions.lib.CropType.Type|values|()[Lcom/blakebr0/mysticalagradditions/lib/CropType$Type;
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1010|1019|isEnabled|method|com.blakebr0.mysticalagradditions.lib.CropType.Type|isEnabled|()Z
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1028|1039|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1040|1059|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1064|1075|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1081|1089|getPlant|method|com.blakebr0.mysticalagradditions.lib.CropType.Type|getPlant|()Lcom/blakebr0/mysticalagradditions/blocks/BlockTier6Crop;
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1099|1110|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1111|1128|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1133|1151|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1157|1164|getSeed|method|com.blakebr0.mysticalagradditions.lib.CropType.Type|getSeed|()Lcom/blakebr0/mysticalagradditions/items/ItemTier6Seed;
+      @|com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java|1173|1181|getPlant|method|com.blakebr0.mysticalagradditions.lib.CropType.Type|getPlant|()Lcom/blakebr0/mysticalagradditions/blocks/BlockTier6Crop;
+   Method End: init()V
+Class End  : com.blakebr0.mysticalmfrcompat.MAgradditionsCompat
+endProcessing "com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java"
+
+startProcessing "com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java" md5: 9ada4e1af859aef5f55464f23d7c664f
+@|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|8|38|com.blakebr0.mysticalmfrcompat|package|com.blakebr0.mysticalmfrcompat|(file)
+Class Start: com.blakebr0.mysticalmfrcompat.MysticalMFRCompat
+   @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1024|1027|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1028|1033|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1057|1061|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1087|1094|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1106|1118|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1234|1251|MysticalMFRCompat|class|com.blakebr0.mysticalmfrcompat.MysticalMFRCompat
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1318|1323|event|param|com.blakebr0.mysticalmfrcompat.MysticalMFRCompat|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1258|1270|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1284|1291|preInit|method|com.blakebr0.mysticalmfrcompat.MysticalMFRCompat|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1292|1317|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1331|1337|Loader|class|net.minecraftforge.fml.common.Loader
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1338|1349|isModLoaded|method|net.minecraftforge.fml.common.Loader|isModLoaded|(Ljava/lang/String;)Z
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1378|1389|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1390|1409|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1414|1425|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1426|1435|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1436|1458|blockTier1InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier1InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1465|1476|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1477|1496|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1501|1512|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1513|1522|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1523|1545|blockTier2InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier2InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1552|1563|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1564|1583|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1588|1599|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1600|1609|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1610|1632|blockTier3InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier3InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1639|1650|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1651|1670|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1675|1686|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1687|1696|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1697|1719|blockTier4InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier4InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1726|1737|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1738|1757|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1762|1773|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1774|1783|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1784|1806|blockTier5InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier5InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1813|1824|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1825|1842|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1847|1865|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1866|1874|ModItems|class|com.blakebr0.mysticalagriculture.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1875|1897|itemTier1InferiumSeeds|field|com.blakebr0.mysticalagriculture.items.ModItems|itemTier1InferiumSeeds
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1899|1908|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1909|1931|blockTier1InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier1InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1938|1949|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1950|1967|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1972|1990|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|1991|1999|ModItems|class|com.blakebr0.mysticalagriculture.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2000|2022|itemTier2InferiumSeeds|field|com.blakebr0.mysticalagriculture.items.ModItems|itemTier2InferiumSeeds
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2024|2033|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2034|2056|blockTier2InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier2InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2063|2074|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2075|2092|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2097|2115|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2116|2124|ModItems|class|com.blakebr0.mysticalagriculture.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2125|2147|itemTier3InferiumSeeds|field|com.blakebr0.mysticalagriculture.items.ModItems|itemTier3InferiumSeeds
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2149|2158|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2159|2181|blockTier3InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier3InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2188|2199|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2200|2217|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2222|2240|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2241|2249|ModItems|class|com.blakebr0.mysticalagriculture.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2250|2272|itemTier4InferiumSeeds|field|com.blakebr0.mysticalagriculture.items.ModItems|itemTier4InferiumSeeds
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2274|2283|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2284|2306|blockTier4InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier4InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2313|2324|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2325|2342|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2347|2365|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2366|2374|ModItems|class|com.blakebr0.mysticalagriculture.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2375|2397|itemTier5InferiumSeeds|field|com.blakebr0.mysticalagriculture.items.ModItems|itemTier5InferiumSeeds
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2399|2408|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2409|2431|blockTier5InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier5InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2438|2449|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2450|2470|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2475|2496|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2498|2503|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2504|2513|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2514|2536|blockTier1InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier1InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2538|2552|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2553|2568|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2578|2589|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2590|2610|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2615|2636|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2638|2643|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2644|2653|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2654|2676|blockTier2InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier2InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2678|2692|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2693|2708|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2718|2729|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2730|2750|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2755|2776|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2778|2783|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2784|2793|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2794|2816|blockTier3InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier3InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2818|2832|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2833|2848|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2858|2869|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2870|2890|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2895|2916|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2918|2923|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2924|2933|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2934|2956|blockTier4InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier4InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2958|2972|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2973|2988|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|2998|3009|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3010|3030|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3035|3056|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3058|3063|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3064|3073|ModBlocks|class|com.blakebr0.mysticalagriculture.blocks.ModBlocks
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3074|3096|blockTier5InferiumCrop|field|com.blakebr0.mysticalagriculture.blocks.ModBlocks|blockTier5InferiumCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3098|3112|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3113|3128|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3142|3155|CropType.Type|class|com.blakebr0.mysticalagriculture.lib.CropType.Type
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3163|3176|CropType.Type|class|com.blakebr0.mysticalagriculture.lib.CropType.Type
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3177|3183|values|method|com.blakebr0.mysticalagriculture.lib.CropType.Type|values|()[Lcom/blakebr0/mysticalagriculture/lib/CropType$Type;
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3200|3209|isEnabled|method|com.blakebr0.mysticalagriculture.lib.CropType.Type|isEnabled|()Z
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3219|3230|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3231|3250|registerHarvestable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerHarvestable|(Lpowercrystals/minefactoryreloaded/api/IFactoryHarvestable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3255|3266|Harvestable|class|com.blakebr0.mysticalmfrcompat.Harvestable
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3272|3280|getPlant|method|com.blakebr0.mysticalagriculture.lib.CropType.Type|getPlant|()Lcom/blakebr0/mysticalagriculture/blocks/crop/BlockMysticalCrop;
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3291|3302|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3303|3320|registerPlantable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerPlantable|(Lpowercrystals/minefactoryreloaded/api/IFactoryPlantable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3325|3343|PlantableCropPlant|class|powercrystals.minefactoryreloaded.farmables.plantables.PlantableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3349|3356|getSeed|method|com.blakebr0.mysticalagriculture.lib.CropType.Type|getSeed|()Lcom/blakebr0/mysticalagriculture/items/ItemSeed;
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3365|3373|getPlant|method|com.blakebr0.mysticalagriculture.lib.CropType.Type|getPlant|()Lcom/blakebr0/mysticalagriculture/blocks/crop/BlockMysticalCrop;
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3384|3395|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3396|3416|registerFertilizable|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizable|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizable;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3421|3442|FertilizableCropPlant|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizableCropPlant
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3444|3449|Block|class|net.minecraft.block.Block
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3455|3463|getPlant|method|com.blakebr0.mysticalagriculture.lib.CropType.Type|getPlant|()Lcom/blakebr0/mysticalagriculture/blocks/crop/BlockMysticalCrop;
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3467|3481|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3482|3497|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3518|3529|MFRRegistry|class|powercrystals.minefactoryreloaded.MFRRegistry
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3530|3548|registerFertilizer|method|powercrystals.minefactoryreloaded.MFRRegistry|registerFertilizer|(Lpowercrystals/minefactoryreloaded/api/IFactoryFertilizer;)V
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3553|3571|FertilizerStandard|class|powercrystals.minefactoryreloaded.farmables.fertilizables.FertilizerStandard
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3572|3580|ModItems|class|com.blakebr0.mysticalagriculture.items.ModItems
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3581|3602|itemFertilizedEssence|field|com.blakebr0.mysticalagriculture.items.ModItems|itemFertilizedEssence
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3607|3621|FertilizerType|class|powercrystals.minefactoryreloaded.api.FertilizerType
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3622|3637|GrowMagicalCrop|field|powercrystals.minefactoryreloaded.api.FertilizerType|GrowMagicalCrop
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3651|3657|Loader|class|net.minecraftforge.fml.common.Loader
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3658|3669|isModLoaded|method|net.minecraftforge.fml.common.Loader|isModLoaded|(Ljava/lang/String;)Z
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3699|3718|MAgradditionsCompat|class|com.blakebr0.mysticalmfrcompat.MAgradditionsCompat
+      @|com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java|3719|3723|init|method|com.blakebr0.mysticalmfrcompat.MAgradditionsCompat|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : com.blakebr0.mysticalmfrcompat.MysticalMFRCompat
+endProcessing "com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java"
+

@@ -1,0 +1,12 @@
+Symbol range map extraction starting
+Processing 3 files
+startProcessing "com\blakebr0\mysticalmfrcompat\Harvestable.java" md5: 77d5f3bf2e695f148453a35d7a31b483
+Cache Hit!
+endProcessing "com\blakebr0\mysticalmfrcompat\Harvestable.java"
+
+startProcessing "com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java" md5: 65c5f4a1e966fde4671ec3f288495aff
+endProcessing "com\blakebr0\mysticalmfrcompat\MAgradditionsCompat.java"
+
+startProcessing "com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java" md5: 9ada4e1af859aef5f55464f23d7c664f
+endProcessing "com\blakebr0\mysticalmfrcompat\MysticalMFRCompat.java"
+
